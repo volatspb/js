@@ -30,7 +30,3 @@ tr:nth-child(even) td:first-child {
 tr:last-child td:nth-child(odd), tr:first-child td:nth-child(even) {
     background-color: rgb(235, 235, 235);
 }
-
-tr:nth-child(odd) td:last-child {
-    background-color: rgb(235, 235, 235);
-}
