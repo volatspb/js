@@ -3,6 +3,11 @@ span {
     padding-bottom: 20px;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 .goods{
     display: flex;
     flex-wrap: wrap;
