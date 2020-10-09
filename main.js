@@ -13,7 +13,7 @@ let time = 0;
 let scoreBlock = document.createElement('div');
 let barier_cell;
 scoreBlock.setAttribute('class', 'score');
-scoreBlock.innerText = 'Текущий счет: '+0;
+scoreBlock.innerText = 'Ваш счет: '+0;
 
 function init() {
     prepareGameField(); // Генерация поля
@@ -165,7 +165,7 @@ function move() {
         finishTheGame();
     }
 
-    scoreBlock.innerText = 'Текущий счет: '+score;
+    scoreBlock.innerText = 'Ваш счет: '+score;
 }
 
 /**
